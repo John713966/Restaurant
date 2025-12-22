@@ -67,4 +67,4 @@ Pour contribuer à ce projet :
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ## Contact
-Pour toute question ou support, contactez [votre-email@example.com].
+Pour toute question ou support, contactez [francoisjohngeraldo10@gmail.com].
