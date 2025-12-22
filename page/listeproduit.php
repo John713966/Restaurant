@@ -45,7 +45,7 @@ $stmt = $pdo->query($res);
                         <td><?php echo $row['prixproduit']; ?> HTG</td>
                         <td>
                             <a href="edit.php?id=<?php echo $row['idproduit'] ?>"><i class="fas fa-edit fs-5 me-3"></i></a>
-                            <a href="edit.php?id=<?php echo $row['idproduit'] ?>"><i class="fas fa-trash fs-5 me-3"></i></a>
+                            <a href="../traitement/delete.php?id=<?php echo $row['idproduit'] ?>"><i class="fas fa-trash fs-5 me-3"></i></a>
 
                         </td>
                 </tr>
