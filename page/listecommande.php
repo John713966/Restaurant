@@ -21,7 +21,7 @@ $stmt = $pdo->query($res);
 </head>
 
 <body>
-    <div class="">
+    <div class="container">
         <h2 class="text-center">Liste des Commandes</h2>
         <table border="2" class="table table-striped" id="ttable">
             <thead>
@@ -33,7 +33,6 @@ $stmt = $pdo->query($res);
                     <th>prix achat total </th>
                     <th>utlisateur</th>
                     <th>Date </th>
-                    <th>Action </th>
                 </tr>
             </thead>
             <tbody>
@@ -49,11 +48,6 @@ $stmt = $pdo->query($res);
                         <td><?php echo $row['total']; ?> </td>
                         <td><?php echo $row['user']; ?> </td>
                         <td><?php echo $row['date']; ?> </td>
-                        <td>
-                            <a href="edit.php?id=<?php echo $row['idcommande'] ?>"><i class="fas fa-edit fs-5 me-3"></i></a>
-                            <a href="edit.php?id=<?php echo $row['idcommande'] ?>"><i class="fas fa-trash fs-5 me-3"></i></a>
-
-                        </td>
                 </tr>
             <?php
                     }
