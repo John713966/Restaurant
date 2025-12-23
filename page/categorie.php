@@ -91,7 +91,7 @@ $stmt = $pdo->query($res);
                                         <td><?php echo $row['nomcategorie']; ?></td>
                                         <td>
                                             <a href="edit.php?id=<?php echo $row['idcategorie'] ?>"><i class="fas fa-edit fs-5 me-3"></i></a>
-                                            <a href="../traitement/delete.php?id=<?php echo $row['idcategorie'] ?>"><i class="fas fa-trash fs-5 me-3"></i></a>
+                                            <a href="../traitement/deletecategorie.php?id=<?php echo $row['idcategorie'] ?>"><i class="fas fa-trash fs-5 me-3"></i></a>
                                         </td>
                                     </tr>
                                 <?php
